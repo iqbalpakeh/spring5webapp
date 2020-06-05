@@ -25,7 +25,7 @@ public class BootstrapData implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        System.out.println("Started in Bootstrap");
+        // System.out.println("Started in Bootstrap");
 
         Publisher publisher = new Publisher();
         publisher.setName("SFG Publishing");
